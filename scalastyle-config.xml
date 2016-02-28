@@ -46,6 +46,7 @@
   <parameters>
    <parameter name="regex"><![CDATA[println]]></parameter>
   </parameters>
+  <customMessage>Don't use println in production code. Use a logger instead.</customMessage>
  </check>
  <check level="error" class="org.scalastyle.scalariform.NumberOfTypesChecker" enabled="true">
   <parameters>
